@@ -2,7 +2,7 @@
 Anda dapat reproduce Repo ini dengan melakukan :
 1. 
 ```bash
-$ git clone https://github.com/dickygiancini/kledo-test.git (atau git@github.com:dickygiancini/kledo-test.git)
+$ git clone https://github.com/dickygiancini/kledoapi-assignment.git (atau git@github.com:dickygiancini/kledoapi-assignment.git)
 $ composer install
 ```
 
