@@ -1,0 +1,30 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Dicky KledoAPI",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/employees": {
+            "get": {
+                "description": "List Employees",
+                "responses": {
+                    "default": {
+                        "description": "Menampilkan semua informasi employees yang ada pada database"
+                    }
+                }
+            },
+            "post": {
+                "description": "Save Employees",
+                "responses": {
+                    "default": {
+                        "description": "Melakukan POST untuk menyimpan data employees"
+                    }
+                }
+            }
+        }
+    },
+    "security": [
+        []
+    ]
+}
