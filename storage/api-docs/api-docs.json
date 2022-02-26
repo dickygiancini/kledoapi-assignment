@@ -22,6 +22,44 @@
                     }
                 }
             }
+        },
+        "/overtime": {
+            "get": {
+                "description": "List Overtimes",
+                "responses": {
+                    "default": {
+                        "description": "Menampilkan semua informasi Overtimes yang ada dari seluruh employees"
+                    }
+                }
+            },
+            "post": {
+                "description": "Save Overtimes",
+                "responses": {
+                    "default": {
+                        "description": "Melakukan POST untuk menyimpan data Overtimes employee"
+                    }
+                }
+            }
+        },
+        "/overtime-pays/calculate": {
+            "get": {
+                "description": "List Kalkulasi Overtime Employee",
+                "responses": {
+                    "default": {
+                        "description": "Menampilkan hasil dari kalkulasi overtime dari employee yang telah mengajukan"
+                    }
+                }
+            }
+        },
+        "/settings": {
+            "patch": {
+                "description": "Edit Settings",
+                "responses": {
+                    "default": {
+                        "description": "Mengubah data yang ada pada tabel settings"
+                    }
+                }
+            }
         }
     },
     "security": [
